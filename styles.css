@@ -1,0 +1,99 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+  *{
+    margin: 0;
+    padding: 30;
+}
+main {
+  margin-top: 0px; 
+  padding: 0px;}
+main {
+  margin: 40px;
+}
+html {
+  font-family: 'Sniglet';
+  }
+  
+  h2,
+  h1,
+  h3 {
+    font-family: 'Rancho';
+  }
+  h1 {
+    font-size: 50px; 
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+
+
+  header {
+    background: rgba(250, 250, 250, 0.7);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    nav ul li5 {
+      margin-right: 40px;
+   }
+  header img {
+    width: 150px; 
+    height: auto; 
+    margin-left: 40px; 
+  }
+  
+  nav {
+    float: right; 
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  nav ul li1,
+  nav ul li2,
+  nav ul li3,
+  nav ul li4,
+  nav ul li5 {
+    float: left;
+    font-family: 'Rancho', cursive;
+    font-size: 20px;
+  }
+  
+  nav ul li1 a,
+  nav ul li2 a,
+  nav ul li3 a,
+  nav ul li4 a,
+  nav ul li5 a {
+    display: block;
+    padding: 10px;
+    color: #9999FF;
+    text-decoration: none;
+  }
+  
+   
+  nav ul li1:hover,
+  nav ul li2:hover,
+  nav ul li3:hover,
+  nav ul li4:hover,
+  nav ul li5:hover{
+    background: #CCCCFF;
+  }
+  
+
+  
+  main {
+    margin-top: 0px; 
+    padding: 0px;}
