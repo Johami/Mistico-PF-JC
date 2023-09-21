@@ -45,9 +45,6 @@ html {
     justify-content: space-between;
     align-items: center;
   }
-    nav ul li5 {
-      margin-right: 40px;
-   }
   header img {
     width: 150px; 
     height: auto; 
@@ -63,21 +60,13 @@ html {
     overflow: hidden;
   }
   
-  nav ul li1,
-  nav ul li2,
-  nav ul li3,
-  nav ul li4,
-  nav ul li5 {
+  nav ul li {
     float: left;
     font-family: 'Rancho', cursive;
     font-size: 20px;
   }
   
-  nav ul li1 a,
-  nav ul li2 a,
-  nav ul li3 a,
-  nav ul li4 a,
-  nav ul li5 a {
+  nav ul li a {
     display: block;
     padding: 10px;
     color: #9999FF;
@@ -85,11 +74,9 @@ html {
   }
   
    
-  nav ul li1:hover,
-  nav ul li2:hover,
-  nav ul li3:hover,
-  nav ul li4:hover,
-  nav ul li5:hover{
+  nav ul li:hover{
     background: #CCCCFF;
   }
-
+  #li6 {
+    margin-right: 40px;
+ }
