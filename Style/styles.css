@@ -6,33 +6,28 @@
   @import url(main.css);
   @import url(footer.css);
   @import url(login.css);
-  /*Generalidades*/
-  *{
-    margin: 0;
-}
-main {
-  margin: 40px;
-}
 
-  /*Tipografía*/
-html {
+  /*Generalidades*/
+* {
+  margin: 0;
   font-family: 'Sniglet';
   text-align: center;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    font-family: 'Rancho';
-  }
-  h1 {
-    font-size: 50px; 
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  h3 {
-    font-size: 20px;
-  }
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Rancho';
+}
+
+h1 {
+  font-size: 3.125em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
