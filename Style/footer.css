@@ -1,0 +1,23 @@
+.icono {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
+
+#contacto{
+    background-color:rgba(204,204,255,0.7);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-footer{
+ margin: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: rgba(153,153,255);
+ font-size: 15px;
+ width: 100%;
+}
