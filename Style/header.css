@@ -46,12 +46,20 @@ nav ul li:hover {
 
 #li6 {
   margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .bars {
   display: none;
 }
 
+.User-img.styled-image {
+  width: 40px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
 
 @media(max-width: 739px) {
 
@@ -77,10 +85,10 @@ nav ul li:hover {
   .menuNavegacion {
     height: 0px;
     position: absolute;
-    top: 15vh;
+    top: 100px;
     left: 0;
     right: 0;
-    width: 100vh;
+    width: 100%;
     background-color: #DBDBFF;
     transition: 0.5s;
     overflow: hidden;
@@ -96,15 +104,6 @@ nav ul li:hover {
     opacity: 0;
   }
 
-  #li6 {
-    margin-right: 0;
-  }
-
-  .menuNavegacion li:hover {
-    background: rgb(250, 250, 250);
-    border-radius: 5%;
-  }
-
   .menuNavegacion.active ul {
     opacity: 100;
   }
@@ -112,5 +111,10 @@ nav ul li:hover {
   .menuNavegacion.active {
     height: auto;
     width: 100%;
+  }
+
+  #li6 {
+    padding: 10px;
+    margin: 0%;
   }
 }

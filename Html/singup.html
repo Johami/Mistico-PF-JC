@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Style/styles.css">
     <title>Registrarme en Mistico</title>
 </head>
+
 <body id="body2">
 
-    <div >
+    <div>
         <button id="Regresar">
-        <a href="index.html"><h3>Regresar</h3></a>
+            <a href="index.html">
+                <h3>Regresar</h3>
+            </a>
         </button>
     </div>
 
@@ -19,22 +23,22 @@
         <img id="logo2" src="../Img/Místico-sinfodo.png" alt="Logo de Mistico">
 
         <div id="login">
-        
+
             <form>
-                <h1 id="h1LogIn">Iniciar sesión</h1><br>
-                
+                <h1 id="h1LogIn">Registrarme</h1><br>
+
                 <label for="nombres">Nombres:</label><br>
                 <input type="text" id="nombres" name="nombres" required><br>
-                
+
                 <label for="apellidos">Apellidos:</label><br>
                 <input type="text" id="apellidos" name="apellidos" required><br>
-                
+
                 <label for="correo">Correo Electrónico:</label><br>
                 <input type="email" id="correo" name="email" required><br>
-                
+
                 <label for="telefono">Teléfono:</label><br>
                 <input type="tel" id="telefono" name="telefono" required><br>
-                
+
                 <label for="contraseña">Contraseña:</label><br>
                 <input type="password" id="contraseña" name="contraseña" required><br>
 
@@ -47,10 +51,17 @@
 
                 <br>
 
-                <input type="submit" value="Registrarme">
+                <input type="button" value="Registrarme" id='registro'>
             </form>
+            <div id="login-lineas">
+                <div class="linea"></div>
+                <div>o</div>
+                <div class="linea"></div>
+            </div>
+            <a href="LogIn.html">Iniciar Sesión</a>
         </div>
     </div>
+    <script src='../Js/ls.js'></script>
 </body>
 
 </html>
