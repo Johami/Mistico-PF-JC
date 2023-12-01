@@ -8,7 +8,7 @@ input.onclick = () => {
   const usuario = users.find(user => user.correo === correo.value && user.contraseña === contraseña.value)
   if (usuario) {
     localStorage.setItem('usuario', JSON.stringify(usuario));
-    location.replace("index.html");
+    location.replace("../index.html");
   } else {
     alert("Credenciales incorrectas. Por favor, inténtalo de nuevo.");
   }
